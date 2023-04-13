@@ -30,3 +30,58 @@ td {
 	border-radius: 5px;
 	background: #ff0000;
 }
+
+#cancelBtn{
+	background-color: red;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	margin: 0 10px;
+}
+
+/* Modal CSS */
+.modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	}
+	
+	.modal-content {
+	background-color: red;
+	margin: 10% auto;
+	padding: 20px;
+	border-radius: 5px;
+	width: 50%;
+	text-align: center;
+	}
+	
+	.modal-buttons {
+	margin-top: 20px;
+	}
+	
+	.modal button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	margin: 0 10px;
+	}
+	
+	.modal button:hover {
+	background-color: #3e8e41;
+	}
+	
+	#cancelBtn:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	}
